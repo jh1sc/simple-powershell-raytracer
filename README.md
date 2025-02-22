@@ -9,7 +9,7 @@ Super SUPER simple - literally useless - ascii raytracer made in powershell - in
 
 
 1. Ray Definition:
-   - A ray is defined by an origin point and a direction vector. It represents the path of light as it travels through the scene.
+   - A ray is jusr an origin point and a direction vector. The ray in this case is the path of "light "
 
 2. Sphere Intersection:
    - For each ray, the algorithm checks if it intersects with any spheres in the scene.
