@@ -31,7 +31,7 @@ Super SUPER simple - literally useless - ascii raytracer made in powershell - in
 
 6. **Color Calculation**:
    - The final color of the pixel is computed by combining the diffuse and specular components with the sphere's color:
-     $\text{Specular} = \left( \max(0, \text{view\_dir} \cdot \text{reflect\_dir}) \right)^{32}$
+     $\text{Specular} = \left( \max(0, \text{view}_{\text{dir}} \cdot \text{reflect}_{\text{dir}}) \right)^{32}$
    - The resulting color is clamped to ensure RGB values remain within the range $[0, 1]$.
 
 7. **Rendering the Scene**:
