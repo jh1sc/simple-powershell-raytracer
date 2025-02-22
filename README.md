@@ -27,7 +27,7 @@ Super SUPER simple - literally useless - ascii raytracer made in powershell - in
 
 5. **Specular Reflection**:
    - The algorithm also calculates the specular reflection, which gives the shiny highlight effect, using the view direction and the reflected light direction:
-     $\text{Specular} = \left( \max(0, \text{view\_dir} \cdot \text{reflect\_dir}) \right)^{32}$
+     $\text{Specular} = \left( \max(0, \text{view}_{\text{dir}} \cdot \text{reflect}_{\text{dir}}) \right)^{32}$
 
 6. **Color Calculation**:
    - The final color of the pixel is computed by combining the diffuse and specular components with the sphere's color:
