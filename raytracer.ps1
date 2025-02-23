@@ -108,8 +108,8 @@ function Trace([Ray]$ray, [Sphere[]]$spheres, [Vec3]$light) {
     return $color.Clamp(0.0, 1.0)
 }
 
-$width = 600
-$height = 160
+$width = 120
+$height = 40
 $camera = [Vec3]::new(0, 0, 3)
 $light = [Vec3]::new(-5, 5, 5)
 $spheres = @(
